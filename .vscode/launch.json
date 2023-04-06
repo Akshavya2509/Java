@@ -1,0 +1,703 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "OBST",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.OBST",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "funny",
+      "request": "launch",
+      "mainClass": "Recursion.Strings.funny",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Recursion.Strings.Main",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Binarysearch",
+      "request": "launch",
+      "mainClass": "Recursion.Binarysearch",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "Recursion.LinearSearch",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "SumOfArray",
+      "request": "launch",
+      "mainClass": "Recursion.SumOfArray",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "MinimumInterviewers",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.MinimumInterviewers",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Blockchain",
+      "request": "launch",
+      "mainClass": "Blockchain.Blockchain",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch LongestCommonSubSeq",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.LongestCommonSubSeq",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch IsSorted",
+      "request": "launch",
+      "mainClass": "Recursion.IsSorted",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SayTheDigitsBaby",
+      "request": "launch",
+      "mainClass": "Recursion.SayTheDigitsBaby",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "Recursion.Fibonacci",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch walkingexp",
+      "request": "launch",
+      "mainClass": "Recursion.walkingexp",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch power",
+      "request": "launch",
+      "mainClass": "Recursion.power",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrintCounting",
+      "request": "launch",
+      "mainClass": "Recursion.PrintCounting",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch factorial",
+      "request": "launch",
+      "mainClass": "Recursion.factorial",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinimumPlatforms",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.MinimumPlatforms",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SortUsngInbltFunc",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.SortUsngInbltFunc",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch knapsack",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.knapsack",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch ActivitySelection",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.ActivitySelection",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Question",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.Question",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiameterOfBTApproach1",
+      "request": "launch",
+      "mainClass": "BinaryTrees.DiameterOfBTApproach1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxSubArrSum",
+      "request": "launch",
+      "mainClass": "AdvancedDSA.MaxSubArrSum",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Codechef",
+      "request": "launch",
+      "mainClass": "Codechef",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterativeMergeSort",
+      "request": "launch",
+      "mainClass": "Sorting.IterativeMergeSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch InversionCount",
+      "request": "launch",
+      "mainClass": "InversionCount",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch InversionSort",
+      "request": "launch",
+      "mainClass": "LinkedList.InversionSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BirdPattern",
+      "request": "launch",
+      "mainClass": "BirdPattern",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bird",
+      "request": "launch",
+      "mainClass": "Bird",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch RubiksCube",
+      "request": "launch",
+      "mainClass": "RubiksCube",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch RottenOranges",
+      "request": "launch",
+      "mainClass": "RottenOranges",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BhavyaExam",
+      "request": "launch",
+      "mainClass": "BhavyaExam",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChristmasTree",
+      "request": "launch",
+      "mainClass": "ChristmasTree",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch S1",
+      "request": "launch",
+      "mainClass": "LinkedList.S1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch S1",
+      "request": "launch",
+      "mainClass": "S1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountingSort1",
+      "request": "launch",
+      "mainClass": "Sorting.CountingSort1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch QuickSort1",
+      "request": "launch",
+      "mainClass": "Sorting.QuickSort1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeSort1",
+      "request": "launch",
+      "mainClass": "Sorting.MergeSort1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertionSort1",
+      "request": "launch",
+      "mainClass": "Sorting.InsertionSort1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort1",
+      "request": "launch",
+      "mainClass": "Sorting.BubbleSort1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DFS",
+      "request": "launch",
+      "mainClass": "Graphs.DFS",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BFS",
+      "request": "launch",
+      "mainClass": "Graphs.BFS",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Classroom",
+      "request": "launch",
+      "mainClass": "Graphs.Classroom",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch HeapSortDescend",
+      "request": "launch",
+      "mainClass": "Heaps.HeapSortDescend",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch HeapSortAscend",
+      "request": "launch",
+      "mainClass": "Heaps.HeapSortAscend",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinHeap",
+      "request": "launch",
+      "mainClass": "Heaps.MinHeap",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxHeap",
+      "request": "launch",
+      "mainClass": "Heaps.MaxHeap",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch HeapInsertion",
+      "request": "launch",
+      "mainClass": "Heaps.HeapInsertion",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BalancedParanthesis",
+      "request": "launch",
+      "mainClass": "DSLab.BalancedParanthesis",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SJF2",
+      "request": "launch",
+      "mainClass": "SJF2",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SJF",
+      "request": "launch",
+      "mainClass": "SJF",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch FCFS",
+      "request": "launch",
+      "mainClass": "FCFS",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch HollowRectangle",
+      "request": "launch",
+      "mainClass": "HollowRectangle",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Heaps1",
+      "request": "launch",
+      "mainClass": "Heaps.Heaps1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch QuickSort",
+      "request": "launch",
+      "mainClass": "Sorting.QuickSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch stack",
+      "request": "launch",
+      "mainClass": "stack",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountingSort",
+      "request": "launch",
+      "mainClass": "Sorting.CountingSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeSort",
+      "request": "launch",
+      "mainClass": "Sorting.MergeSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch RoundRobin",
+      "request": "launch",
+      "mainClass": "RoundRobin",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SelectionSort",
+      "request": "launch",
+      "mainClass": "Sorting.SelectionSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertionSort",
+      "request": "launch",
+      "mainClass": "Sorting.InsertionSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort",
+      "request": "launch",
+      "mainClass": "Sorting.BubbleSort",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch FCFS",
+      "request": "launch",
+      "mainClass": "OSLAB.FCFS",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch intro",
+      "request": "launch",
+      "mainClass": "Manya.intro",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrintInRange",
+      "request": "launch",
+      "mainClass": "BinarySearchTrees.PrintInRange",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch deletionOfNodeinBST",
+      "request": "launch",
+      "mainClass": "BinarySearchTrees.deletionOfNodeinBST",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchingBST",
+      "request": "launch",
+      "mainClass": "BinarySearchTrees.SearchingBST",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch BST",
+      "request": "launch",
+      "mainClass": "BinarySearchTrees.BST",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hashing",
+      "request": "launch",
+      "mainClass": "HashMap.Hashing",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingFCFS",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingFCFS",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingCLOOK",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingCLOOK",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingLOOK",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingLOOK",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingCSCAN",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingCSCAN",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingSCAN",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingSCAN",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskSchedulingSSTF",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskSchedulingSSTF",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiskScheduling",
+      "request": "launch",
+      "mainClass": "OSLAB.DiskScheduling",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch MostFrequent",
+      "request": "launch",
+      "mainClass": "HashSet.MostFrequent",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hashing",
+      "request": "launch",
+      "mainClass": "HashSet.Hashing",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SubtreeOfBT",
+      "request": "launch",
+      "mainClass": "BinaryTrees.SubtreeOfBT",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiameterOfBTApproach2",
+      "request": "launch",
+      "mainClass": "BinaryTrees.DiameterOfBTApproach2",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiameterOfBT",
+      "request": "launch",
+      "mainClass": "BinaryTrees.DiameterOfBT",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch HeightOfTree",
+      "request": "launch",
+      "mainClass": "BinaryTrees.HeightOfTree",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumofNodes",
+      "request": "launch",
+      "mainClass": "BinaryTrees.SumofNodes",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountNodesBST",
+      "request": "launch",
+      "mainClass": "BinaryTrees.CountNodesBST",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch PArtitioning",
+      "request": "launch",
+      "mainClass": "OSLAB.PArtitioning",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReverseASentence",
+      "request": "launch",
+      "mainClass": "DSLab.ReverseASentence",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stack1",
+      "request": "launch",
+      "mainClass": "Stack1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch RandomLL",
+      "request": "launch",
+      "mainClass": "RandomLL",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch LevelOrdertraversal",
+      "request": "launch",
+      "mainClass": "BinaryTrees.LevelOrdertraversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch PostOrderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTrees.PostOrderTraversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch InorderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTrees.InorderTraversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch PreOrderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTrees.PreOrderTraversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Traversal",
+      "request": "launch",
+      "mainClass": "BinaryTrees.Traversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Binary1",
+      "request": "launch",
+      "mainClass": "BinaryTrees.Binary1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Binary1",
+      "request": "launch",
+      "mainClass": "Binary1",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Launch CircularLL",
+      "request": "launch",
+      "mainClass": "CircularLL",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/VS CODE FILES/Java",
+      "program": "d:/VS CODE FILES/Java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
