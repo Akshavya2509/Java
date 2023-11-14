@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BlockChainJava",
+      "request": "launch",
+      "mainClass": "BlockChainJava",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "BlockChainJava",
+      "request": "launch",
+      "mainClass": "BlockchainJava.BlockChainJava",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "BlockChainJava",
+      "request": "launch",
+      "mainClass": "Blockchain.BlockChainJava",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "BlockC",
+      "request": "launch",
+      "mainClass": "Blockchain.BlockC",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Blockchain.Main",

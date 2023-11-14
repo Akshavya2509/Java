@@ -1,4 +1,4 @@
-package Blockchain;
+package BlockchainJava;
 
 import java.util.*;
 

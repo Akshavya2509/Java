@@ -1,4 +1,5 @@
-package Blockchain;
+
+
 import java.util.*;
 
 // Transaction Data
@@ -15,12 +16,14 @@ class TransactionData {
         this.timestamp = new Date().getTime();
     }
 }
-class BlockChainJava {
+
+class Block {
     private int index;
+    TransactionData data;
     private long blockHash;
     private long previousHash;
 
-    BlockChainJava(int index, TransactionData data, long prevHash) {
+    Block(int index, TransactionData data, long prevHash) {
         this.index = index;
         this.data = data;
         this.previousHash = prevHash;
@@ -28,7 +31,8 @@ class BlockChainJava {
     }
 
     private long generateHash() {
-        String toHash = String.valueOf(data.amount) + data.receiverKey + data.senderKey + String.valueOf(data.timestamp);
+        String toHash = String.valueOf(data.amount) + data.receiverKey + data.senderKey
+                + String.valueOf(data.timestamp);
         return Objects.hash(toHash) + previousHash;
     }
 
@@ -40,8 +44,6 @@ class BlockChainJava {
         return previousHash;
     }
 
-    TransactionData data;
-
     boolean isHashValid() {
         return generateHash() == blockHash;
     }
@@ -49,27 +51,27 @@ class BlockChainJava {
 
 // Blockchain
 class Blockchain {
-    private List<BlockChainJava> chain;
+    private List<Block> chain;
 
     Blockchain() {
         chain = new ArrayList<>();
-        BlockChainJava genesis = createGenesisBlock();
+        Block genesis = createGenesisBlock();
         chain.add(genesis);
     }
 
-    private BlockChainJava createGenesisBlock() {
+    private Block createGenesisBlock() {
         TransactionData data = new TransactionData(0, "None", "None");
-        BlockChainJava genesis = new BlockChainJava(0, data, Objects.hash(0));
+        Block genesis = new Block(0, data, 0L); // Use a simpler hash for the genesis block
         return genesis;
     }
 
-    BlockChainJava getLatestBlock() {
+    Block getLatestBlock() {
         return chain.get(chain.size() - 1);
     }
 
     void addBlock(TransactionData data) {
         int index = chain.size() - 1;
-        BlockChainJava newBlock = new BlockChainJava(index, data, getLatestBlock().getHash());
+        Block newBlock = new Block(index, data, getLatestBlock().getHash());
         chain.add(newBlock);
     }
 
@@ -77,13 +79,13 @@ class Blockchain {
         int chainLen = chain.size();
 
         for (int i = 0; i < chainLen; i++) {
-            BlockChainJava currentBlock = chain.get(i);
+            Block currentBlock = chain.get(i);
             if (!currentBlock.isHashValid()) {
                 return false;
             }
 
             if (chainLen > 1 && i > 0) {
-                BlockChainJava previousBlock = chain.get(i - 1);
+                Block previousBlock = chain.get(i - 1);
                 if (currentBlock.getPreviousHash() != previousBlock.getHash()) {
                     return false;
                 }
@@ -94,7 +96,7 @@ class Blockchain {
     }
 }
 
-class Main {
+class BlockChainJava {
     public static void main(String[] args) {
         Blockchain TWSCCoin = new Blockchain();
 
@@ -110,7 +112,7 @@ class Main {
         System.out.println("Now is the chain valid?");
         System.out.println(TWSCCoin.isChainValid());
 
-        BlockChainJava hackBlock = TWSCCoin.getLatestBlock();
+        Block hackBlock = TWSCCoin.getLatestBlock();
         hackBlock.data.amount = 10000;
         hackBlock.data.receiverKey = "Akshavya - From Crypto Enthusiasts";
 
