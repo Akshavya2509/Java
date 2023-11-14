@@ -1,6 +1,8 @@
 package Graphs;
-import java.util.*;
-public class BFS {
+
+import java.util.ArrayList;
+
+public class AllPathsFromSourseToTarget {
     static class edge{
         int src;
         int dest;
@@ -44,43 +46,33 @@ public class BFS {
         graph[5].add(new edge(5, 6, 1));
         graph[5].add(new edge(6, 5, 1));
     }
-
-    public static void BFS(ArrayList<edge> [] graph, int start, boolean vis[])
+    public static void dfs(ArrayList <edge>[] graph, int curr, boolean vis[], String path, int target)
     {
-        Queue<Integer> q = new LinkedList<>();
-        q.add(start);
-
-        while(!q.isEmpty())
+        if(curr == target)
         {
-            int curr = q.remove();
+            System.out.println(path);
+            return;
+        }
 
-            if(!vis[curr])
+        for(int i = 0; i < graph[curr].size(); i ++)
+        {
+            edge e = graph[curr].get(i);
+            if(!vis[e.dest]) // If the neighbour is already visited then don't
             {
-                System.out.print(curr + " ");
                 vis[curr] = true;
-                for(int i = 0; i < graph[curr].size(); i ++)
-                {
-                    edge e = graph[curr].get(i);
-                    q.add(e.dest);
-                }
+                dfs(graph, e.dest, vis, path+e.dest, target);
+                vis[curr] = false;
             }
         }
     }
+
     public static void main(String[] args) {
         int v = 7;
 
-        ArrayList <edge> graph[] = new ArrayList[v];
-
+        ArrayList<edge> graph[] = new ArrayList[v];
         createGraph(graph);
-        boolean visited[] = new boolean[v];
-
-        for(int i = 0; i < v; i ++)
-        {
-            if(!visited[i])
-            {
-                BFS(graph, i, visited);
-            }
-        }
+        int src = 0, target = 6;
+        dfs(graph, src, new boolean[v], "0", target);
     }
 
 }

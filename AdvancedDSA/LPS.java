@@ -1,5 +1,7 @@
+package AdvancedDSA;
+import java.util.*;
 class Solution {
-    public int longestPalindromeSubseq(String s) {
+    public static int longestPalindromeSubseq(String s) {
         StringBuilder s1 = new StringBuilder(s);
         s1.reverse();
         
@@ -17,5 +19,12 @@ class Solution {
         }
 
         return LPS[s.length()][s.length()];
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+
+        System.out.println(longestPalindromeSubseq(s));
     }
 }

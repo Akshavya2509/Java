@@ -3,6 +3,173 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Blockchain.Main",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "ShortestIncreasingSubsequence",
+      "request": "launch",
+      "mainClass": "ShortestIncreasingSubsequence",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "MinLengthSubsequence",
+      "request": "launch",
+      "mainClass": "MinLengthSubsequence",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "MinRemovalToDistinct",
+      "request": "launch",
+      "mainClass": "MinRemovalToDistinct",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "RaghavDSATOPPERKaDiyaCode",
+      "request": "launch",
+      "mainClass": "RaghavDSATOPPERKaDiyaCode",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "GP",
+      "request": "launch",
+      "mainClass": "GP",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "CycleDetectionUndirected",
+      "request": "launch",
+      "mainClass": "Graphs.CycleDetectionUndirected",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "TopologicalSorting",
+      "request": "launch",
+      "mainClass": "Graphs.TopologicalSorting",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "CycleDetection",
+      "request": "launch",
+      "mainClass": "Graphs.CycleDetection",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Raptus",
+      "request": "launch",
+      "mainClass": "Raptus",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Base64Decoder",
+      "request": "launch",
+      "mainClass": "Base64Decoder",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "AllPathsFromSourseToTarget",
+      "request": "launch",
+      "mainClass": "Graphs.AllPathsFromSourseToTarget",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "BufferedWriterExample",
+      "request": "launch",
+      "mainClass": "BufferedWriterExample",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "ExceptionHandling.MainClass",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Abstraction",
+      "request": "launch",
+      "mainClass": "OOPS.Abstraction",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "OOPS.Encapsulation",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "OOPS.MainClass",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "Polymorphism",
+      "request": "launch",
+      "mainClass": "OOPS.Polymorphism",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "WeightedAdjacencyList",
+      "request": "launch",
+      "mainClass": "Graphs.WeightedAdjacencyList",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "AdjacencyList",
+      "request": "launch",
+      "mainClass": "Graphs.AdjacencyList",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "queueReversal",
+      "request": "launch",
+      "mainClass": "Sorting.queueReversal",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "sort012",
+      "request": "launch",
+      "mainClass": "Blockchain.sort012",
+      "projectName": "Java_f6e39de3"
+    },
+    {
+      "type": "java",
+      "name": "ActivitySelection",
+      "request": "launch",
+      "mainClass": "JavaFolder.AdvancedDSA.ActivitySelection"
+    },
+    {
+      "type": "java",
       "name": "OBST",
       "request": "launch",
       "mainClass": "AdvancedDSA.OBST",
